@@ -1,0 +1,47 @@
+.container {
+  min-width: 700px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.header {
+  color: #555;
+  align-content: center;
+  height: 50px;
+  background-color: #ddd;
+}
+
+.item {
+  color: #888;
+  text-align: left;
+  font-size: 12px;
+  height: 100px;
+  padding-right: 35px !important;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.day {
+  color: #888;
+  font-size: 24px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.task {
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  top: 40px;
+  left: 10px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: lightyellow;
+  width: 190%;
+  z-index: 999;
+  overflow: hidden;
+}
