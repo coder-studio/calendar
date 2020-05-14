@@ -2,10 +2,10 @@
 import React from "react";
 
 //Styles
-import "./calendar.styles.scss";
+import "./calendarTask.styles.scss";
 import "bootstrap/dist/css/bootstrap.css";
 
-class Calendar extends React.Component {
+class CalendarTask extends React.Component {
   constructor() {
     super();
 
@@ -29,10 +29,10 @@ class Calendar extends React.Component {
           </div>
           <div className="row">
             <div className="col item">
-              jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
               <div className="day">01</div>
+              jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
             </div>
-            <div className="col item">Dia 2 </div>
+            <div className="col item stripes">Dia 2 </div>
             <div className="col item">Dia 3 </div>
             <div className="col item">Dia 4 </div>
             <div className="col item">
@@ -51,4 +51,4 @@ class Calendar extends React.Component {
   }
 }
 
-export default Calendar;
+export default CalendarTask;
