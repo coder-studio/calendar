@@ -11,18 +11,16 @@
   background-color: #ccc;
 }
 
-.row-header {
-  padding: 2px;
-}
-
 .item-header {
   height: 30px;
   background-color: #ddd;
   border: none;
+  margin: 0px;
 }
 
 .item-col {
   width: 100%;
+  padding: 0px;
 }
 
 .item {
@@ -42,6 +40,7 @@
 
 .col-day {
   position: absolute;
+  left: 2px;
   top: 8px;
   color: #888;
   font-size: 16px;

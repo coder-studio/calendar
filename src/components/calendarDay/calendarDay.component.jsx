@@ -27,7 +27,6 @@ class CalendarTask extends React.Component {
             <div className="col">Sab</div>
             <div className="col">Dom</div>
           </div>
-
           <div className="row">
             <div className="col item">
               <div className="row item-header">
@@ -37,11 +36,22 @@ class CalendarTask extends React.Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col">00000000000000</div>
+                <div className="col">100000000000000</div>
               </div>
             </div>
 
-            <div className="col item">Dia 2</div>
+            <div className="col item">
+              <div className="row item-header">
+                <div className="col item-col">
+                  <div className="col-month">MAR</div>
+                  <div className="col-day">09</div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">1dddddddddddddddddddddddddd</div>
+              </div>
+            </div>
+
             <div className="col item">Dia 3</div>
             <div className="col item">Dia 4</div>
             <div className="col item">Dia 5</div>
