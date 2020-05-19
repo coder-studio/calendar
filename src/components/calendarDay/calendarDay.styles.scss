@@ -1,6 +1,6 @@
 .container {
   min-width: 700px;
-  border: 1px solid #ddd;
+  border: 1px solid #bbb;
   border-radius: 5px;
 }
 
@@ -8,12 +8,19 @@
   color: #555;
   align-content: center;
   height: 30px;
-  background-color: #ccc;
+  background-color: #bbb;
 }
 
 .item-header {
   height: 30px;
   background-color: #ddd;
+  border: none;
+  margin: 0px;
+}
+
+.item-header-out {
+  color: #ccc;
+  height: 30px;
   border: none;
   margin: 0px;
 }
@@ -42,12 +49,10 @@
   position: absolute;
   left: 2px;
   top: 8px;
-  color: #888;
   font-size: 16px;
 }
 
 .col-month {
-  color: #888;
   font-size: 9px;
 }
 
